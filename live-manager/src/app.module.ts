@@ -7,7 +7,7 @@ import { TypeOrmModule } from "@nestjs/typeorm";
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: '.env'
+      envFilePath: '.env' // carrega as variáveis de ambiente
     }),
    /* TypeOrmModule.forRoot({
       // @ts-ignore
