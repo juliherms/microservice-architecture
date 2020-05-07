@@ -42,7 +42,7 @@ export class Lives1585609541909 implements MigrationInterface {
                 {
                     name: 'created_at',
                     type: 'timestamp',
-                    default: 'CURRENT_TIMESTAMP'
+                  
                 }
             ]
         }), true)
